@@ -590,4 +590,31 @@ h3 {
   gap: 2rem;
   align-items: center;
 }
+.testimonial__imagen {
+  flex-basis: 10rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.testimonial__autor {
+  color: #FFFFFF;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+.testimonial__texto {
+  font-size: 2rem;
+  line-height: 1.5;
+  margin: 2rem 0 0 0;
+  padding-left: 3rem;
+  position: relative;
+}
+.testimonial__texto::before {
+  content: ' " ';
+  font-size: 10rem;
+  color: #FFFFFF;
+  position: absolute;
+  left: 0;
+  top: -4rem;
+  opacity: 0.3;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
 /*# sourceMappingURL=app.css.map */

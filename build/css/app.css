@@ -570,4 +570,24 @@ h3 {
   -webkit-transform: rotate(-4deg) scale(1.2);
           transform: rotate(-4deg) scale(1.2);
 }
+
+.testimoniales {
+  padding: 5rem;
+}
+
+.testimonial {
+  background-color: #455a64;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+  color: #FFFFFF;
+}
+.testimonial:last-of-type {
+  margin-bottom: 0;
+}
+.testimonial__header {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
 /*# sourceMappingURL=app.css.map */
